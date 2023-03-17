@@ -1,1 +1,22 @@
-df
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    border:1px solid blue;
+    gap: 10px 10px;
+    margin: 500px;
+    background-color: black;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    background-color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
